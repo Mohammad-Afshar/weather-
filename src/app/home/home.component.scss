@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
+#main {
+  background: url("../../assets/image/blue.jpg") no-repeat center;
+  background-size: cover;
+  font-family: "Julius Sans One", sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // text-align: center;
+  // margin-top: -10px;
+  // margin-bottom: -10px;
+  // margin-left: -10px;
+}
+
+#header {
+  text-align: center;
+  padding-top: 20px;
+  p {
+    color: #000;
+
+    font-size: 40px;
+  }
+  form {
+    input {
+      width: 400px;
+      height: 40px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border: none;
+      font-size: 16px;
+      font-family: "Julius Sans One", sans-serif;
+      text-align: center;
+      &:focus {
+        outline: none;
+      }
+      &:after{
+        content: 'entet';
+      }
+    }
+  }
+}
+    button {
+      vertical-align: -1px;
+      background-color: transparent;
+      border: 0;
+      font-size: 20px;
+      cursor: pointer;
+      background-color: white;
+      height: 40px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      &:focus {
+        outline: none;
+      }
+      
+    }
+ 
+
+  .error {
+    
+    font-size: 18px !important;
+   
+    color: yellow !important;
+  }
+
+#result {
+  margin-top: 30px;
+  
+
+  #left {
+    color: #fff;
+    .infoCity {
+      font-size: 40px;
+      text-align: center;
+    }
+    .infotime {
+      font-size: 10px;
+      margin-top: -20px;
+      margin-bottom: 70px;
+      text-align: center;
+
+    }
+
+    .desc {
+      width: 100%;
+      text-align: center;
+      font-family: "Mogra", cursive;
+      font-size: 40px;
+    }
+
+    .darage {
+      text-align: center;
+      font-family: "Mogra", cursive;
+      margin-top: -30px;
+      font-size: 100px;
+    }
+  }
+
+  #right {
+    opacity: 0.5;
+    font-family: "Mogra", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background: url("../../assets/image/Cloud\ in\ the\ Sky.gif");
+    border-radius: 30px;
+
+    #leftDesc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      p {
+        font-size: 22px;
+        span {
+          font-size: 60px;
+          margin-top: 20px;
+          
+        }
+      }
+    }
+
+    #rightDesc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      p {
+        font-size: 25px;
+
+        span {
+          font-size: 60px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
